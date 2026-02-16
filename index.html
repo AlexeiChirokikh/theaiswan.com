@@ -3,57 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>TheAISwan Blog</title>
 
     <style>
-        body {
+        /* Reset default spacing */
+        html, body {
             margin: 0;
-            font-family: Arial, sans-serif;
-            background: #0f172a;
-            color: #e2e8f0;
+            padding: 0;
+            height: 100%;
+            background-color: #000; /* black background */
+        }
+
+        /* Center image perfectly */
+        body {
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
-            text-align: center;
         }
 
-        .container {
-            max-width: 600px;
-        }
-
-        h1 {
-            font-size: 2.5rem;
-            margin-bottom: 10px;
-        }
-
-        p {
-            font-size: 1.2rem;
-            color: #94a3b8;
-        }
-
-        a {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 10px 20px;
-            background: #2563eb;
-            color: white;
-            text-decoration: none;
-            border-radius: 6px;
-        }
-
-        a:hover {
-            background: #1d4ed8;
+        /* Image styling */
+        img {
+            max-width: 100%;
+            max-height: 100%;
+            width: auto;
+            height: auto;
+            object-fit: contain;
         }
     </style>
 </head>
 <body>
 
-<div class="container">
-    <h1>Welcome to test site</h1>
-    <p>Your GitHub Pages site is working.</p>
-    <a href="#">Learn more</a>
-</div>
+    <!-- Replace blog.png with your actual image filename -->
+    <img src="blog.png" alt="TheAISwan Blog">
 
 </body>
 </html>
